@@ -40,9 +40,7 @@ box-shadow: 4px 3px 5px rgba(1,1,1,0.1);
     
 }
 
-#countryCode {
-    width: 20px;
-}
+
 
 .form_container{
     margin-top: 50px;
@@ -100,13 +98,19 @@ button:hover{
 width: 100%;
 }
 
+#Copywright{
+    text-align:center;
+    font-size: medium;
+    color: white;
+    
+}
+
 @media(max-width:460px){
     .textarea_control{
         grid-column: 1 / span 1;
     }
 
     #img{
-        display: flexbox;
-        flex-direction: column;
+        max-width: 360px;
     }
 }
